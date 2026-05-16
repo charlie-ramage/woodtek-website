@@ -50,7 +50,7 @@ export default function Stats() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-60px' }}
               transition={{ duration: 0.5, delay: i * 0.08 }}
-              className="group relative overflow-hidden rounded-[var(--radius-card)] border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.02] p-6 transition hover:border-orange-400/40 hover:from-white/[0.08]"
+              className="group relative overflow-hidden rounded-[var(--radius-card)] border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.02] p-6 transition-colors duration-300 hover:border-orange-400/40 hover:from-white/[0.08]"
             >
               <s.icon className="h-7 w-7 text-orange-400" strokeWidth={1.6} />
               <div className="mt-5 font-display text-3xl font-extrabold leading-none text-white sm:text-4xl">

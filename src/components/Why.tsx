@@ -47,7 +47,7 @@ export default function Why() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-60px' }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="rounded-[var(--radius-card)] border border-white/10 bg-white/[0.04] p-7 transition hover:border-orange-400/40 hover:bg-white/[0.06]"
+              className="rounded-[var(--radius-card)] border border-white/10 bg-white/[0.04] p-7 transition-colors duration-300 hover:border-orange-400/40 hover:bg-white/[0.06]"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-orange-400 text-navy-700">
                 <p.icon className="h-6 w-6" strokeWidth={1.8} />

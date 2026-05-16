@@ -47,7 +47,7 @@ export default function CaseStudies() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-60px' }}
               transition={{ duration: 0.45, delay: i * 0.08 }}
-              className="group relative flex flex-col rounded-[var(--radius-card)] border border-navy-100 bg-cream-50 p-7 transition hover:-translate-y-0.5 hover:border-orange-400 hover:bg-white hover:shadow-[var(--shadow-elev)]"
+              className="group relative flex flex-col rounded-[var(--radius-card)] border border-navy-100 bg-cream-50 p-7 transition-[transform,background-color,border-color,box-shadow] duration-300 hover:-translate-y-0.5 hover:border-orange-400 hover:bg-white hover:shadow-[var(--shadow-elev)]"
             >
               <div className="flex items-center justify-between">
                 <span className="rounded-full bg-navy-700 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.16em] text-orange-200">

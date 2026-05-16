@@ -53,7 +53,7 @@ export default function WhatWeInstall() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-60px' }}
               transition={{ duration: 0.45, delay: i * 0.07 }}
-              className="group relative overflow-hidden rounded-[var(--radius-card)] bg-white p-6 shadow-[var(--shadow-card)] ring-1 ring-navy-700/5 transition hover:-translate-y-0.5 hover:shadow-[var(--shadow-elev)]"
+              className="group relative overflow-hidden rounded-[var(--radius-card)] bg-white p-6 shadow-[var(--shadow-card)] ring-1 ring-navy-700/5 transition-[transform,box-shadow] duration-300 hover:-translate-y-0.5 hover:shadow-[var(--shadow-elev)]"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-navy-700 text-orange-400 transition group-hover:bg-orange-400 group-hover:text-navy-700">
                 <it.icon className="h-6 w-6" strokeWidth={1.7} />
