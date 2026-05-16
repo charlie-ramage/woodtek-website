@@ -70,9 +70,9 @@ html {
   }
 
   p { line-height: 1.65; }
-}
 
-a { color: inherit; }
+  a { color: inherit; }
+}
 
 *:focus-visible {
   outline: 2px solid var(--color-orange-400);
