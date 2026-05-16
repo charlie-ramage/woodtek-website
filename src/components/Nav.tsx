@@ -28,8 +28,8 @@ export default function Nav() {
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
         scrolled
-          ? 'bg-navy-600/95 backdrop-blur supports-[backdrop-filter]:bg-navy-600/80 shadow-[0_2px_24px_rgba(11,38,64,0.18)]'
-          : 'bg-transparent'
+          ? 'bg-navy-700/95 backdrop-blur supports-[backdrop-filter]:bg-navy-700/85 shadow-[0_2px_24px_rgba(11,38,64,0.18)]'
+          : 'nav-top-fade'
       }`}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:h-20 lg:px-8">

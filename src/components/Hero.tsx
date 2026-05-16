@@ -31,11 +31,11 @@ export default function Hero() {
             <span className="h-1.5 w-1.5 rounded-full bg-orange-400" />
             Aotearoa · Mass timber installation
           </span>
-          <h1 className="mt-6 text-balance text-4xl font-extrabold leading-[1.05] text-white sm:text-5xl lg:text-7xl">
+          <h1 className="mt-6 text-balance text-4xl font-extrabold leading-[1.05] text-white drop-shadow-[0_2px_24px_rgba(6,22,38,0.55)] sm:text-5xl lg:text-7xl">
             New Zealand&apos;s mass timber installation{' '}
             <span className="text-orange-400">specialists.</span>
           </h1>
-          <p className="mt-6 max-w-2xl text-base text-white/85 sm:text-lg lg:text-xl">
+          <p className="mt-6 max-w-2xl text-base text-white/90 drop-shadow-[0_1px_12px_rgba(6,22,38,0.45)] sm:text-lg lg:text-xl">
             Cross-laminated timber, glulam, and hybrid structures — installed
             faster, with less embodied carbon, by Aotearoa&apos;s most experienced
             specialist crew.
