@@ -4,7 +4,7 @@ import { Quote } from 'lucide-react'
 
 export default function Testimonial() {
   return (
-    <section className="bg-navy-700 py-20 sm:py-28">
+    <section className="bg-navy-700 py-20 text-white sm:py-28">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <div className="relative overflow-hidden rounded-[var(--radius-card)] bg-gradient-to-br from-navy-500/30 to-navy-700 p-8 sm:p-12 lg:p-16">
           <Quote

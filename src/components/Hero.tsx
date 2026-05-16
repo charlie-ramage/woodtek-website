@@ -6,7 +6,7 @@ import { ArrowRight, Phone } from 'lucide-react'
 
 export default function Hero() {
   return (
-    <section id="top" className="relative isolate overflow-hidden bg-navy-700">
+    <section id="top" className="relative isolate overflow-hidden bg-navy-700 text-white">
       {/* Background image */}
       <div className="absolute inset-0 -z-10">
         <Image
