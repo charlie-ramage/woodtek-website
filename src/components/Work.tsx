@@ -1,19 +1,11 @@
 'use client'
 
 import Image from 'next/image'
-import { ExternalLink, Instagram } from 'lucide-react'
-import posts from '@/data/instagram.json'
+import { Instagram } from 'lucide-react'
+import type { IGPost } from '@/lib/getInstagramFeed'
 
-type Post = {
-  shortcode: string
-  post_url: string
-  local: string
-  caption: string
-  size: number
-}
-
-export default function Work() {
-  const items = (posts as Post[]).slice(0, 16)
+export default function Work({ posts }: { posts: IGPost[] }) {
+  const items = posts.slice(0, 16)
 
   return (
     <section id="work" className="bg-white py-20 sm:py-24">

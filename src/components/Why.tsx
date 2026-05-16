@@ -30,7 +30,7 @@ export default function Why() {
             <span className="text-xs font-semibold uppercase tracking-[0.2em] text-orange-300">
               Why Woodtek
             </span>
-            <h2 className="mt-3 text-3xl font-extrabold sm:text-4xl lg:text-5xl">
+            <h2 className="mt-3 text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
               The specialist installer main contractors call first.
             </h2>
           </div>

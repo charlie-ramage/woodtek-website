@@ -13,8 +13,11 @@ import Testimonial from '@/components/Testimonial'
 import Faq from '@/components/Faq'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
+import { getInstagramFeed } from '@/lib/getInstagramFeed'
 
-export default function Home() {
+export default async function Home() {
+  const posts = await getInstagramFeed()
+
   return (
     <main>
       <Nav />
@@ -25,7 +28,7 @@ export default function Home() {
       <Process />
       <Why />
       <Suppliers />
-      <Work />
+      <Work posts={posts} />
       <CaseStudies />
       <Safety />
       <Testimonial />

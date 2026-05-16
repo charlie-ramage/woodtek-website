@@ -38,7 +38,7 @@ export default function Stats() {
           <span className="text-xs font-semibold uppercase tracking-[0.2em] text-orange-300">
             Why mass timber
           </span>
-          <h2 className="mt-3 text-3xl font-extrabold sm:text-4xl lg:text-5xl">
+          <h2 className="mt-3 text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
             Faster, lighter, and dramatically lower carbon.
           </h2>
         </div>

@@ -90,11 +90,12 @@ html {
     radial-gradient(circle at 80% 85%, rgba(11, 38, 64, 0.04), transparent 55%);
 }
 
-/* Hero overlay gradient */
+/* Hero overlay gradient — bottom 60% pushed stronger so the CTA row and
+   stats strip read clearly over the photo at smaller viewports. */
 .hero-gradient {
   background:
     linear-gradient(95deg, rgba(6, 22, 38, 0.85) 0%, rgba(6, 22, 38, 0.7) 45%, rgba(6, 22, 38, 0.45) 100%),
-    linear-gradient(180deg, rgba(6, 22, 38, 0.55) 0%, rgba(6, 22, 38, 0.35) 35%, rgba(11, 38, 64, 0.85) 100%),
+    linear-gradient(180deg, rgba(6, 22, 38, 0.40) 0%, rgba(6, 22, 38, 0.55) 40%, rgba(6, 22, 38, 0.78) 70%, rgba(4, 14, 24, 0.98) 100%),
     radial-gradient(120% 80% at 20% 10%, rgba(232, 147, 34, 0.18), transparent 60%);
 }
 
